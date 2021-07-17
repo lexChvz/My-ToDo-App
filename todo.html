@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Todo List</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <h1 class="title">My Todo List</h1>
+        <div id="plus">
+          <svg
+            viewBox="0 0 46 46"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="plus-icon" fill="#fffaa4">
+                <polygon
+                  id="cross"
+                  points="22 11 22 22 11 22 11 24 22 24 22 35 24 35 24 24 35 24 35 22 24 22 24 11"
+                ></polygon>
+                <path
+                  d="M23,0 C10.309295,0 0,10.309295 0,23 C0,35.690705 10.309295,46 23,46 C35.690705,46 46,35.690705 46,23 C46,10.309295 35.690705,0 23,0 Z M23,2 C34.609824,2 44,11.390176 44,23 C44,34.609824 34.609824,44 23,44 C11.390176,44 2,34.609824 2,23 C2,11.390176 11.390176,2 23,2 Z"
+                  id="circle"
+                  fill-rule="nonzero"
+                ></path>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <input
+        type="text"
+        name="newTodo"
+        id="newTodo"
+        placeholder="add new todo"
+      />
+      <ul id="todo-list">
+        <li>
+          Portfolio
+          <span
+            ><img class="trash-icon" src="assets/imgs/trash.svg" alt=""
+          /></span>
+        </li>
+        <li>
+          Push codes to git
+          <span
+            ><img class="trash-icon" src="assets/imgs/trash.svg" alt=""
+          /></span>
+        </li>
+        <li>
+          Update resume
+          <span
+            ><img class="trash-icon" src="assets/imgs/trash.svg" alt=""
+          /></span>
+        </li>
+      </ul>
+    </div>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
