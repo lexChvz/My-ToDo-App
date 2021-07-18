@@ -111,6 +111,7 @@ li span {
   height: 50px;
   display: grid;
   place-items: center;
+  cursor: pointer;
 }
 
 li:hover .trash-icon {
